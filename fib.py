@@ -5,7 +5,7 @@ When given a position, the function returns the fibonacci at that position in th
 The first number in the fibonacci sequence is 0.
 """
 def fibonacci(position):
-  if(position == 2 or position == 3):
+  if position <= 3:
     return 1
   return fibonacci(position - 1) + fibonacci(position - 2)
 
