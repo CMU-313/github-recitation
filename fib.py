@@ -11,7 +11,9 @@ def fibonacci(position):
   
   if(position == 1 or position == 2):
     return 1
-  else if (positive < 0);
+  elif (position ==0):
+    return 0
+  elif (position < 0):
     return None
   return fibonacci(position - 1) + fibonacci(position - 2)
 
